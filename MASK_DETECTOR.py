@@ -50,7 +50,7 @@ model_saved=model.fit_generator(
         epochs=10,
         validation_data=test_set,
         )
-model.save('mymodel.h5',model_saved)
+model.save('CNN.h5',model_saved)
 
 
 cap=cv2.VideoCapture(0)
